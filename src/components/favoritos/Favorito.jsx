@@ -1,0 +1,17 @@
+import React from 'react'
+import { useSelector } from 'react-redux'
+import './favorito.css'
+import CardMovie from '../cardmovie/CardMovie'
+
+function Favorito() {
+    const favcorite = useSelector((state) => state.favorites)
+    return (
+        <div>
+            <h2>Filmes Favoritos</h2>
+            <CardMovie movies={favorites} />
+        </div>
+    )
+}
+
+export default Favorito
+    

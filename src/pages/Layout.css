@@ -1,0 +1,24 @@
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.navbar {
+    position: relative;
+}
+
+
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
