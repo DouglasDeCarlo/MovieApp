@@ -4,7 +4,7 @@ import './favorito.css'
 import CardMovie from '../cardmovie/CardMovie'
 
 function Favorito() {
-    const favcorite = useSelector((state) => state.favorites)
+    const favorites = useSelector((state) => state.favorites)
     return (
         <div>
             <h2>Filmes Favoritos</h2>
@@ -14,4 +14,3 @@ function Favorito() {
 }
 
 export default Favorito
-    
